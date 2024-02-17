@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
-using Cinemachine;
+using Cine
 using EzySlice;
 using UnityEngine.Rendering.PostProcessing;
 
@@ -19,12 +19,12 @@ public class BladeModeScript : MonoBehaviour
 
     public Transform cutPlane;
 
-    public CinemachineFreeLook TPCamera;
+   
 
     public Material crossMaterial;
     private CinemachineComposer[] composers;
 
-    public LayerMask layerMask;
+    
     ParticleSystem[] particles;
 
     void Start()
